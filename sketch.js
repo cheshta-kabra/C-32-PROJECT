@@ -116,7 +116,7 @@ function draw(){
 
     //launcher.display();
 
-    block1.score();
+    /*block1.score();
     block2.score();
     block3.score();
     block4.score();
@@ -145,7 +145,7 @@ function draw(){
     block27.score();
     block28.score();
     block29.score();
-    block30.score();
+    block30.score();*/
     
     text("SCORE : "+score,750,40)
 

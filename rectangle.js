@@ -11,13 +11,13 @@ class Rectangle {
       World.add(world,this.body);
     }
 
-    score(){
+    /*score(){
       
       if(this.visibility<0 && this.visibility>-105){
         score++
         
       }
-    }
+    }*/
   
     display(){
       //console.log(this.body.speed);
@@ -34,6 +34,7 @@ class Rectangle {
       World.remove(world, this.body);
       push();
       this.visibility = this.visibility -5;
+      score++
       pop();
       
     }
